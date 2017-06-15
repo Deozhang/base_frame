@@ -3,6 +3,7 @@ html, body {
     -ms-overflow-style: scrollbar; /*ie-scrollbar*/
 }
 
+
 .main-wrap{
     z-index: 20;
     margin-top: 50px;
