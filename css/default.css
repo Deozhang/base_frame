@@ -37,18 +37,10 @@ html, body {
     color: #6d7983;
 }
 
-.sidebar li .caret {
-    margin-top: 9px;
-}
-
 .sidebar li i {
     margin-right: 15px;
 }
 
-.sidebar .nav-header {
-    padding: 10px;
-    background-color: #f5f5f5;
-}
 
 .sidebar .nav > li[class*=active] > a {
     background-color: #00acac;
