@@ -31,6 +31,11 @@ var pageInit = (function (page) {
                 $(".main-wrap").animate({ marginLeft: 220 });
             }
         });
+
+        $(".has-sub>a").click(function () {
+            $(this).parent().siblings().find(".sub-menu").slideUp();
+            $(this).parent().find(".sub-menu").slideToggle();
+        })
     }
     return page;
 })(window.pageInit || {});
